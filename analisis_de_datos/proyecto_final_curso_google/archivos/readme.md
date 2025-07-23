@@ -1,1 +1,1 @@
-
+En la carpeta se encuentran los archivos filtrados sobre los cuales se desarrollaron los gráficos; no pudo ser posible adjuntar los archivos originales para el análisis, debido a la gran cantidad de datos y peso de los mismos, sin embargo en el archivo .ipynb principal, se encuentra el link con los archivos originales, algunos de ellos debieron ser separados para poder trabajarlos.
