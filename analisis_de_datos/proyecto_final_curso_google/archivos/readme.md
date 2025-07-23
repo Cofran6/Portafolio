@@ -1,1 +1,1 @@
-En esta carpeta se encuentran los archivos originales sobre los cuales se desarrolló el proyecto final.
+En esta carpeta se encuentran los archivos originales sobre los cuales se desarrolló el proyecto final, cabe destacar que un archivo fue modificado debido a la gran magnitud de este (sobre 1.2M de filas).
