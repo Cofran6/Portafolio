@@ -1,1 +1,1 @@
-d
+Este proyecto fue llevado a cabo como trabajo final del curso de Análisis de datos de Google, para el cual se usaron diversas herramientas como Python (gráficos), Excel, MySQL Workbench para el filtrado de datos.
