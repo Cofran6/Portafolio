@@ -4,6 +4,20 @@
 Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset **Supermarket Sales**, que contiene información de ventas de un supermercado en tres ciudades. El objetivo es identificar patrones, relaciones entre variables, posibles insights de negocio y recomendaciones para un posible modelo predictivo.
 
 
+## 🛠️ Pasos realizados
+
+1. Se cargaron y revisaron los datos del archivo `supermarketsales.csv`.
+2. Se inspeccionaron tipos de variables, valores nulos y duplicados.
+3. Se realizó una limpieza menor: conversión de tipos y formato de fecha.
+4. Se aplicó un análisis univariado sobre variables numéricas y categóricas.
+5. Se identificaron y analizaron outliers (se modificaron ciertos outliers para que el valor mínimo fuera 0).
+6. Se estudió la relación entre variables mediante análisis bivariado (correlación, comparaciones entre grupos).
+7. Se exploraron interacciones entre múltiples variables para detectar patrones relevantes.
+8. Se llevó a cabo un análisis temporal para detectar tendencias en el tiempo.
+9. Se extrajeron hallazgos clave y se entregaron recomendaciones finales.
+10. Con el objetivo de mantener un análisis conciso y enfocado, se limitaron las combinaciones de variables analizadas, priorizando aquellas que aportan mayor valor al entendimiento del negocio.
+
+
 ## 📊 Dataset
 
 - **Nombre:** `supermarketsales.csv`
@@ -12,8 +26,8 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - **Fuente:** [Kaggle - Supermarket Sales](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales)
 
 
-
 ## 📌 Herramientas utilizadas
+
 
 - Python 3
 - Pandas
@@ -143,13 +157,28 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 ## 💡 Principales hallazgos
 
 
+- **Calidad y estructura:** El dataset se encuentra limpio, sin valores nulos ni duplicados. Algunas variables redundantes fueron descartadas por falta de valor analítico.
+
+- **Distribuciones y outliers:** Las métricas de venta presentan sesgo positivo y algunos valores atípicos que podrían reflejar compras inusuales.
+
+- **Relaciones entre variables:** Las métricas de venta están perfectamente correlacionadas entre sí, mientras que el Rating no muestra relación con otras variables numéricas.
+
+- **Segmentación de clientes:** Se identificaron preferencias de producto diferenciadas por género y variaciones en el uso de métodos de pago según la sucursal.
+
+- **Tendencias temporales:** Se observó estacionalidad semanal en las ventas y comportamientos distintos según ciudad.
+
+- **Proyección futura:** Los patrones detectados pueden servir de base para modelos predictivos y estrategias de segmentación.
+
 
 ## 🚀 Cómo usar este análisis
+
 
 1. Clona el repositorio.
 2. Abre `eda.ipynb` en Jupyter o Visual Studio Code.
 3. Ejecuta las celdas para reproducir el análisis.
 
+
 ## 📌 Autor
+
 
 Franco Díaz - [GitHub](https://github.com/cofran6)
