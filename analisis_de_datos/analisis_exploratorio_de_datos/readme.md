@@ -48,6 +48,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - Distribuciones de variables categóricas.
 - Distribuciones de variables numéricas.
 
+
 ## 2. Limpieza y preparación de los datos
 
 ### 2.1 Tratamiento de valores faltantes
@@ -59,6 +60,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - Correción de variables tipo Object a categóricas.
 - Conversión columna Date a fecha.
 - Comprobación.
+
 
 ## 3. Análisis univariado
 
@@ -79,6 +81,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 ### 3.4 Análisis de variables categóricas
 
 - Frecuencias absolutas y relativas.
+
 
 ## 4. Análisis bivariado
 
@@ -110,7 +113,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - Total vs cantidad según género.
 - Unidad vs precio total, según línea de producto.
 - Ingreso bruto vs rating, según tipo de cliente.
-- 
+
 
 ## 6. Análisis temporal
 
@@ -119,6 +122,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - Total diario de ventas, según ciudad.
 - Total diario de ventas, según método de pago.
 
+
 ## 7. Hallazgos clave
 
 - Integridad y estructura de los datos.
@@ -126,6 +130,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - Relaciones entre variables.
 - Segmentaciones y tipos de clientes.
 - Tendencias temporales.
+
 
 ## 8. Conclusiones y recomendaciones
 
