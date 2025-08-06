@@ -9,7 +9,7 @@ Este proyecto realiza un análisis exploratorio de datos (EDA) sobre el dataset 
 - **Nombre:** `supermarketsales.csv`
 - **Tamaño:** 1000 registros
 - **Variables principales:** fecha de venta, producto, ingresos, método de pago, género del cliente, etc.
-- **Fuente:** [Kaggle - Supermarket Sales]([https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales](https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales)
+- **Fuente:** [Kaggle - Supermarket Sales]([https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales]https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales)
 
 
 ## 📌 Herramientas utilizadas
