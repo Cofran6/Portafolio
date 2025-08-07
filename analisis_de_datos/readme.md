@@ -1,4 +1,4 @@
-#📊 Proyectos de Análisis de Datos
+# 📊 Proyectos de Análisis de Datos
 
 Este directorio reúne una colección de proyectos de análisis de datos que he desarrollado como parte de mi proceso de aprendizaje y consolidación en el área. Cada proyecto está diseñado para aplicar y fortalecer habilidades clave en exploración, limpieza, visualización y modelado de datos, utilizando herramientas como Python, pandas, matplotlib, seaborn, SQL, entre otras.
 
