@@ -9,10 +9,6 @@ Este repositorio tiene como objetivo documentar y compartir los proyectos que he
 
 🛡️ Ciberseguridad
 
-🤖 Inteligencia artificial (proyectos desarrollados en el marco de cursos como el de IBM)
-
-🔌 Electrónica y hardware (Arduino, Flipper Zero, entre otros)
-
 Cada carpeta contiene proyectos orientados a aplicar conocimientos técnicos en problemas reales o simulados, siguiendo buenas prácticas de desarrollo, análisis y documentación.
 
 Este portafolio no solo refleja mi formación académica, sino también mi compromiso con el aprendizaje continuo y la exploración de nuevas tecnologías.
