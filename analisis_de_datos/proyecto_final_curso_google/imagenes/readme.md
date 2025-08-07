@@ -1,4 +1,5 @@
-🗺️ Proyecto Final – Curso de Análisis de Datos (Google)
+🗺️ Proyecto Final – Curso de Análisis de Datos Google
+
 Esta carpeta contiene los recursos visuales del proyecto final del curso de Análisis de Datos de Google, específicamente mapas interactivos y sus respectivas capturas.
 
 Contenido
