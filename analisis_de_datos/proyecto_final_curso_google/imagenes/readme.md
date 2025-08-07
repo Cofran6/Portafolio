@@ -9,4 +9,5 @@ Esta carpeta contiene los recursos visuales del proyecto final del curso de Aná
 🌐 **Archivos HTML**: Mapas interactivos exportados desde Python. Estos permiten explorar las rutas y destinos con más detalle, gracias a elementos dinámicos como líneas, círculos y popups informativos.
 
 **Nota**
+
 Tras una recuperación de datos por un incidente técnico, se logró restaurar casi por completo el proyecto original.
