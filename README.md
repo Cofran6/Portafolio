@@ -1,6 +1,6 @@
 👋 Bienvenido a mi portafolio técnico
 
-Hola, soy Franco Díaz, Ingeniero Informático con un fuerte interés en el análisis de datos, inteligencia artificial, ciberseguridad y electrónica aplicada.
+Hola, soy Franco Díaz, Ingeniero Informático con un fuerte interés en el análisis de datos, ciberseguridad, inteligencia artificial y electrónica aplicada.
 
 Este repositorio tiene como objetivo documentar y compartir los proyectos que he desarrollado en diversas áreas de la tecnología. Aquí encontrarás trabajos relacionados con:
 
