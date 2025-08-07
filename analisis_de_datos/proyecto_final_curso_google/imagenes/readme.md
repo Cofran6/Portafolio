@@ -1,13 +1,14 @@
-🗺️ Visualizaciones Interactivas y Capturas
+🗺️ # Visualizaciones Interactivas y Capturas
 
-Esta carpeta contiene los recursos visuales del proyecto final del curso de Análisis de Datos de Google, específicamente mapas interactivos y sus respectivas capturas.
+#### Esta carpeta contiene los recursos visuales del proyecto final del curso de Análisis de Datos de Google, específicamente mapas interactivos y sus respectivas capturas.
 
-📋 Contenido
+📋 ## Contenido
 
-📷 **Imágenes**: Capturas estáticas de los mapas generados con folium, utilizadas para documentación y presentación del análisis.
+📷 ### **Imágenes**: Capturas estáticas de los mapas generados con folium, utilizadas para documentación y presentación del análisis.
 
-🌐 **Archivos HTML**: Mapas interactivos exportados desde Python. Estos permiten explorar las rutas y destinos con más detalle, gracias a elementos dinámicos como líneas, círculos y popups informativos.
+🌐 ### **Archivos HTML**:
+Mapas interactivos exportados desde Python. Estos permiten explorar las rutas y destinos con más detalle, gracias a elementos dinámicos como líneas, círculos y popups informativos.
 
-**Nota**
+## **Nota**
 
-Tras una recuperación de datos por un incidente técnico, se logró restaurar casi por completo el proyecto original.
+#### Tras una recuperación de datos por un incidente técnico, se logró restaurar casi por completo el proyecto original.
