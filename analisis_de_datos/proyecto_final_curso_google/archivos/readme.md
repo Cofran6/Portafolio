@@ -1,39 +1,56 @@
-En la carpeta se encuentran los archivos filtrados sobre los cuales se desarrollaron los gráficos; no pudo ser posible adjuntar los archivos originales para el análisis, debido a la gran cantidad de datos y peso de los mismos, sin embargo en el archivo readme.md principal, se encuentra el link con los archivos originales, algunos de ellos debieron ser separados para poder trabajarlos.
+# 📁 Archivos CSV Exportados
 
-Consultas SQL 🗄️
+Esta carpeta contiene los archivos CSV filtrados utilizados en la etapa de análisis y visualización del proyecto. Debido al tamaño original de la base de datos (aproximadamente 5 millones de registros), no fue posible incluir todos los datos crudos aquí. Sin embargo, el enlace a los datos completos se encuentra disponible en el `README.md` principal del proyecto.
 
-Para la etapa de limpieza y análisis inicial, se utilizó MySQL Workbench con el objetivo de transformar, depurar y organizar los datos antes de su análisis visual. A continuación, se resumen los principales pasos:
+Algunos archivos fueron separados o resumidos para facilitar su manejo en herramientas como Python, Excel y Jupyter.
 
-Limpieza y preparación de datos 🧹
+---
 
-- Durante la carga de datos en la base SQL, se identificaron y descartaron filas con valores nulos o en blanco. Dado el volumen total de registros y la baja proporción de datos faltantes, esta depuración no afectó significativamente el análisis posterior.
+## 🗄️ Consultas SQL
 
-- Se filtraron los registros para conservar solo aquellos pertenecientes a usuarios casuales, generando una nueva tabla: miembros_casuales.
+Durante la etapa inicial de limpieza y transformación de datos se utilizó **MySQL Workbench**. El objetivo fue preparar subconjuntos de datos relevantes para el análisis posterior. A continuación se resumen los principales pasos:
 
-- Se eliminó información innecesaria para optimizar el rendimiento (por ejemplo, ID de estaciones o fechas de término de viaje).
+### 🧹 Limpieza y preparación
 
-Consultas analíticas
+- Se descartaron registros con valores nulos o en blanco.
+- Se filtraron los datos para incluir solo a usuarios casuales, generando la tabla `miembros_casuales`.
+- Se eliminaron columnas irrelevantes para el análisis, como identificadores internos o fechas de término.
 
-- Se crearon tablas específicas para exportar datos clave y facilitar su visualización en Python o Excel:
+---
 
-- inicios_populares: Estaciones de inicio más comunes (30 principales + agrupación como "Otros inicios").
+## 📋 Contenido de los CSV
 
-- destinos_populares: Estaciones de destino más frecuentes (30 principales + agrupación como "Otros destinos").
+Los siguientes archivos fueron generados mediante consultas SQL para su posterior análisis visual:
 
-- rutas_populares: Combinaciones de inicio–destino más habituales.
+### 🚍 `rutas_populares.csv`  
+Combinaciones de estaciones de inicio y destino más frecuentes.
 
-- horas_populares: Horarios más comunes de inicio de viaje.
+### 🏁 `inicios_populares.csv`  
+30 estaciones de inicio más comunes, con una categoría adicional para "Otros inicios".
 
-- dias_populares: Días de la semana con mayor actividad (convertidos de número a nombre).
+### 🎯 `destinos_populares.csv`  
+30 estaciones de destino más frecuentes, con una categoría adicional para "Otros destinos".
 
-- meses_populares: Tendencias mensuales de uso.
+### 🕒 `horas_populares.csv`  
+Rangos horarios con mayor cantidad de inicios de viaje.
 
-Geolocalización 🗺️ 
+### 📅 `dias_populares.csv`  
+Frecuencia de viajes según el día de la semana, transformando números en nombres de día.
 
-Para generar visualizaciones espaciales, se construyeron tablas con latitudes y longitudes:
+### 📆 `meses_populares.csv`  
+Tendencias mensuales de uso a lo largo del período analizado.
 
-- mapa_inicios: Coordenadas y conteo de inicios de viaje.
+---
 
-- mapa_destinos: Coordenadas y conteo de destinos.
+## 🗺️ Geolocalización
 
-- mapa_rutas: Coordenadas de origen y destino por ruta, junto al número de veces recorrida.
+Para construir mapas interactivos, se generaron tablas con coordenadas y conteos:
+
+### 📍 `mapa_inicios.csv`  
+Latitud, longitud y cantidad de inicios por estación.
+
+### 🎯 `mapa_destinos.csv`  
+Latitud, longitud y cantidad de destinos por estación.
+
+### 🔁 `mapa_rutas.csv`  
+Coordenadas de origen y destino para las rutas más frecuentes, junto al número de veces recorridas.
