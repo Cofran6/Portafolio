@@ -1,4 +1,4 @@
-# Proyecto Final: Caso Bicicletas 🚲
+# 🚲 Proyecto Final: Caso Bicicletas 
 
 Este proyecto fue llevado a cabo como trabajo final del curso de **Análisis de Datos de Google**. Se utilizaron herramientas como **Python** (para visualización), **Excel** y **MySQL Workbench** (para limpieza y análisis de datos).
 
