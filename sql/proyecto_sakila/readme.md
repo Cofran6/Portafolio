@@ -159,13 +159,15 @@ Organizadas por tipo:
 - Identificación de patrones en alquileres y pagos.  
 - Clientes con mayor número de rentas y tendencias de consumo.  
 - Relación entre categorías de películas y frecuencia de alquiler.  
-- Descubrimiento de casos de datos faltantes o inconsistencias en ciertas tablas.  
+- Actores más populares.
+- Actores mejores pagados.
+- Patrones de diversidad de alquileres según cliente.
 
 ## 📝 Conclusiones
 - Las consultas SQL permiten extraer información valiosa de bases de datos relacionales complejas.  
-- La gestión de usuarios y permisos es clave para la seguridad y administración.  
+- La gestión de usuarios y permisos es clave para la seguridad, administración y control, ya que permite definir quién puede acceder a la base de datos, qué operaciones puede realizar, y protege la integridad y confidencialidad de los datos frente a accesos no autorizados.
 - Las técnicas avanzadas (CTEs, procedimientos, tablas temporales) facilitan el análisis y automatización de tareas.  
-- Documentar el flujo de trabajo y las consultas mejora la replicabilidad y comprensión del proyecto.
+- Documentar el flujo de trabajo y las consultas facilita la replicabilidad y comprensión del proyecto, especialmente para usuarios que no están familiarizados con la base de datos o con SQL.
 
 ## 🚀 Cómo replicar este proyecto
 
@@ -176,7 +178,7 @@ Organizadas por tipo:
 
 ### 📝 Pasos para replicar
 1. Descargar e instalar la base de datos Sakila desde la [documentación oficial](https://dev.mysql.com/doc/sakila/en/).  
-2. Abrir MySQL Workbench (u otro cliente SQL) y conectar al servidor.  
+2. Abrir MySQL Workbench 8.0 CE (recomendado) u otro cliente SQL y conectarse al servidor. Ten en cuenta que el uso de otros motores puede generar errores debido a diferencias en la sintaxis de SQL 
 3. Ejecutar `USE sakila;` para seleccionar la base de datos.  
 4. Ejecutar las consultas en el orden indicado en cada sección del proyecto.  
 5. Revisar y ajustar permisos de usuarios si se desea probar la sección de gestión de usuarios.  
