@@ -42,6 +42,7 @@ DESC store; -- store_id pk: Datos de tiendas.
 
 
 -- 1.3 Entender las relaciones importantes entre tablas
+
 /*
 country - city - address
     Cada país tiene varias ciudades; cada ciudad tiene varias direcciones.
