@@ -131,12 +131,6 @@ En esta fase se implementan procedimientos almacenados para **automatizar cálcu
   - `total_rentas_cliente_nombre(p_customer_id)`: devuelve el total de películas alquiladas por un cliente específico, utilizando el parámetro de entrada `p_customer_id`.  
   Estos procedimientos permiten realizar consultas dinámicas y reutilizables, adaptándose a distintos escenarios y usuarios.
 
-- **Beneficios del uso de procedimientos almacenados**:  
-  - Evitan la repetición de código SQL complejo.  
-  - Facilitan la ejecución de análisis recurrentes.  
-  - Garantizan consistencia en cálculos y reportes.  
-  - Permiten parametrización para consultas dinámicas y personalizadas.
-
 El uso de procedimientos almacenados en Sakila permite **optimizar la gestión de consultas avanzadas**, automatizar reportes críticos y simplificar el análisis de información relacionada con clientes, películas y categorías.
 
 
