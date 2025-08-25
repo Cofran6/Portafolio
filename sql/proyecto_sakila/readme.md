@@ -39,13 +39,34 @@ En esta fase inicial se realiza un análisis detallado de la estructura de la ba
 - Identificación de las claves primarias y atributos principales de cada tabla.  
 - Determinación de las relaciones entre tablas, incluyendo claves foráneas y dependencias, para entender cómo se conectan los distintos conjuntos de datos.
 
+Este análisis proporciona un **mapa completo de la base de datos**, fundamental para formular consultas precisas y analizar los datos de manera estructurada.
   
 ### 2️⃣ Formulación y resolución de preguntas de análisis según complejidad
 
-En esta etapa se desarrollan un conjunto de preguntas de análisis de datos, estructuradas según su nivel de dificultad:
+En esta etapa se desarrollan preguntas de análisis de datos, estructuradas según su nivel de dificultad, con el objetivo de extraer información relevante y patrones de comportamiento dentro de la base Sakila.
 
-- Ejecución de consultas SQL clasificadas como básicas, intermedias y avanzadas.  
-- Presentación de la solución y los resultados obtenidos para cada pregunta.
+- **Consultas básicas**: permiten obtener información general y agregada, como:  
+  - Total de películas.
+  - Total de actores.
+  - Número de categorías distintas.
+  - Duración promedio de películas.
+  - Total de clientes. 
+
+- **Consultas intermedias**: incluyen análisis más complejos mediante `JOIN`, agregaciones y `GROUP BY`, por ejemplo:  
+  - Actor con más películas.
+  - Duración promedio de películas por género. 
+  - Top 3 clientes con más rentas.  
+  - Cliente que genera mayores ingresos.  
+  - Top 3 ciudades con más ingresos.  
+
+- **Consultas avanzadas**: utilizan subconsultas, CTEs, funciones agregadas y ranking para obtener insights profundos:  
+  - Actores mejor pagados.  
+  - Categorías que generan mayores ingresos.  
+  - Películas más alquiladas por categoría.  
+  - Promedio de duración de películas por actor (para actores con mayor cantidad de películas).  
+  - Clientes que han alquilado películas de más categorías distintas y su pago promedio.  
+
+Cada consulta está documentada con **pregunta, solución SQL y resultado**, facilitando la comprensión y replicación del análisis. Esta estructura asegura un **análisis progresivo**, desde información general hasta patrones complejos y hallazgos relevantes.
 
 
 ### 3️⃣ Manejo y revisión de usuarios y permisos
@@ -96,7 +117,28 @@ El uso de tablas temporales permite **simplificar consultas complejas**, **proba
 
 
 ### 5️⃣ Uso de procedimientos almacenados
-- Automatización de cálculos y reportes.  
+
+En esta fase se implementan procedimientos almacenados para **automatizar cálculos, consultas y reportes**, facilitando el análisis de datos repetitivos y complejos sin modificar las tablas originales.
+
+- **Procedimientos simples**:  
+  - Ejemplo: `contar_clientes_activos(tienda)` calcula el número de clientes activos por tienda, permitiendo obtener rápidamente esta información sin escribir consultas repetitivas.
+
+- **Procedimientos compuestos**:  
+  - Ejemplo: `ingresos_por_categoria()` devuelve los ingresos totales generados por cada categoría de películas, utilizando múltiples `JOIN` y agregaciones. Este procedimiento permite generar reportes de manera automatizada y ordenada.
+
+- **Procedimientos con parámetros de entrada y salida**:  
+  - `promedio_duracion_actor_nombre(actor_id)`: calcula la duración promedio de películas de un actor específico, utilizando el parámetro de entrada `actor_id`.  
+  - `total_rentas_cliente_nombre(p_customer_id)`: devuelve el total de películas alquiladas por un cliente específico, utilizando el parámetro de entrada `p_customer_id`.  
+  Estos procedimientos permiten realizar consultas dinámicas y reutilizables, adaptándose a distintos escenarios y usuarios.
+
+- **Beneficios del uso de procedimientos almacenados**:  
+  - Evitan la repetición de código SQL complejo.  
+  - Facilitan la ejecución de análisis recurrentes.  
+  - Garantizan consistencia en cálculos y reportes.  
+  - Permiten parametrización para consultas dinámicas y personalizadas.
+
+El uso de procedimientos almacenados en Sakila permite **optimizar la gestión de consultas avanzadas**, automatizar reportes críticos y simplificar el análisis de información relacionada con clientes, películas y categorías.
+
 
 ## 🧰 Técnicas y herramientas usadas
 - Consultas SQL: básicas, intermedias y avanzadas  
