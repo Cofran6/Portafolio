@@ -187,3 +187,9 @@ Organizadas por tipo:
 ---
 
 Este README proporciona un marco completo para entender, ejecutar y replicar el proyecto Sakila, mostrando buenas prácticas en análisis de datos y administración de bases de datos relacionales.
+
+---
+
+📌 Autor
+
+Franco Díaz - [GitHub](https://github.com/Cofran6)
