@@ -32,10 +32,15 @@ Tablas principales (la base cuenta con 16 tablas):
   
 ## 🔄 Flujo de trabajo / Metodología
 ### 1️⃣ Inspección y comprensión de la base de datos
-- Exploración de tablas, tipos de datos y relaciones.  
+
+- Exploración y listado de tablas.
+- Identificación de estructura y claves primarias.
+- Identificación de relaciones entre tablas.  
 
 ### 2️⃣ Formulación y respuesta a preguntas de análisis según complejidad
-- Consultas básicas, intermedias y avanzadas.  
+- Consultas básicas.
+- Consultas intermedias.
+- Consultas avanzadas. 
 
 ### 3️⃣ Manejo y revisión de usuarios y permisos
 - Creación de usuarios, asignación y revocación de privilegios.  
