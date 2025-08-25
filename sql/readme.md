@@ -2,7 +2,7 @@
 
 Esta carpeta reúne los proyectos que he desarrollado utilizando **SQL** sobre bases de datos relacionales, con el objetivo de analizar, manipular y extraer información de manera eficiente. Los trabajos documentan la aplicación práctica de conceptos fundamentales y avanzados de SQL dentro de un flujo de análisis de datos profesional.
 
-## Contenido
+## 📂 Contenido
 
 Los proyectos incluidos en esta carpeta están orientados a:
 
@@ -14,7 +14,7 @@ Los proyectos incluidos en esta carpeta están orientados a:
 
 Los datasets utilizados son reales o simulados y permiten explorar distintos escenarios de negocio, como ventas, inventarios, clientes y categorías, según corresponda a cada proyecto.
 
-## Objetivo
+## 🎯 Objetivo
 
 El objetivo de esta carpeta es demostrar:
 
@@ -22,7 +22,7 @@ El objetivo de esta carpeta es demostrar:
 - Conocimiento en modelado relacional, consultas complejas y optimización.  
 - Habilidad para documentar proyectos de manera clara y profesional.
 
-## Herramientas
+## 🛠️ Herramientas
 
 - **MySQL**: motor de base de datos relacional.  
 - **Workbench / Cliente SQL**: para ejecución y visualización de consultas.  
