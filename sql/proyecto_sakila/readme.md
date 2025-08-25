@@ -180,12 +180,12 @@ Organizadas por tipo:
 - Verificar que los usuarios tengan los permisos necesarios según la sección de manejo de usuarios.  
 
 ### 📝 Pasos para replicar
-1. Descargar e instalar la base de datos Sakila desde la [documentación oficial](https://dev.mysql.com/doc/sakila/en/).  
-2. Abrir MySQL Workbench 8.0 CE (recomendado) u otro cliente SQL y conectarse al servidor. Ten en cuenta que el uso de otros motores puede generar errores debido a diferencias en la sintaxis de SQL 
-3. Ejecutar `USE sakila;` para seleccionar la base de datos.  
-4. Ejecutar las consultas en el orden indicado en cada sección del proyecto.  
-5. Revisar y ajustar permisos de usuarios si se desea probar la sección de gestión de usuarios.  
-6. Ejecutar procedimientos almacenados y tablas temporales según las instrucciones del proyecto.  
+1. Descargar e instalar la base de datos Sakila desde la documentación oficial.
+2. Abrir MySQL Workbench 8.0 CE (recomendado) u otro cliente SQL y conectarse al servidor. Ten en cuenta que el uso de otros motores puede generar errores debido a diferencias en la sintaxis de SQL.
+3. Abrir y ejecutar el script `script_sakila.sql` incluido en este repositorio. Esto creará la base de datos, tablas, usuarios y privilegios necesarios.
+4. Ejecutar `USE sakila;` para seleccionar la base de datos.
+5. Seguir las instrucciones del proyecto para ejecutar consultas, procedimientos almacenados y tablas temporales en el orden indicado.
+6. Revisar y ajustar permisos de usuarios si se desea probar la sección de gestión de usuarios.
 
 ---
 
