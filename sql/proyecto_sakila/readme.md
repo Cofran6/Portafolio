@@ -10,20 +10,22 @@ Este proyecto utiliza la base de datos **Sakila**, un ejemplo relacional proporc
 - Automatizar consultas mediante procedimientos almacenados y tablas temporales.  
 
 ## 🛠️ Motor usado
-- **MySQL** (versión XX)  
-- Cliente: MySQL Workbench / otro cliente SQL compatible  
+- **MySQL** (versión 8.0 CE)  
+- Cliente: MySQL Workbench
 
 ## 🗂️ Esquema de la base de datos
 La base de datos Sakila contiene tablas relacionadas con un sistema de alquiler de películas, incluyendo actores, clientes, inventario, pagos y categorías.  
 Fuente: [Documentación oficial MySQL](https://dev.mysql.com/doc/sakila/en/)
 
-*Ejemplo de tablas principales:*  
-- actor  
-- film  
-- customer  
-- rental  
-- payment  
-- category  
+Tablas principales (la base cuenta con 16 tablas):
+
+- **actor**: contiene la información de los actores, incluyendo su `actor_id`, nombre y apellido, y la fecha de última actualización. Esta tabla se relaciona con `film_actor` para conocer en qué películas participó cada actor.  
+
+- **film**: almacena los datos de las películas disponibles en la base de datos, como título, descripción, año de lanzamiento, duración, clasificación, tarifa de alquiler, duración de alquiler y fecha de última actualización. Se conecta con categorías y actores a través de tablas intermedias.  
+
+- **customer**: registra la información de los clientes, incluyendo nombre, correo electrónico, dirección y si tienen activo el plan de tienda (`active`). Se vincula con la tabla `rental` para registrar los alquileres realizados por cada cliente.  
+
+- **store**: representa las tiendas físicas que poseen inventario de películas. Cada tienda está asociada a un empleado como gerente (`manager_staff_id`) y a una dirección específica. Se conecta con inventario y clientes para el registro de operaciones de alquiler y ventas. 
 
 ## 🔄 Flujo de trabajo / Metodología
 ### 1️⃣ Inspección y comprensión de la base de datos
