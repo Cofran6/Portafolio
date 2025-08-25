@@ -10,7 +10,7 @@ Este proyecto utiliza la base de datos **Sakila**, un ejemplo relacional proporc
 - Automatizar consultas mediante procedimientos almacenados y tablas temporales.  
 
 ## 🛠️ Motor usado
-- **MySQL** (versión 8.0 CE)  
+- **MySQL Workbench** (versión 8.0 CE)  
 - Cliente: MySQL Workbench
 
 ## 🗂️ Esquema de la base de datos
@@ -25,8 +25,10 @@ Tablas principales (la base cuenta con 16 tablas):
 
 - **customer**: registra la información de los clientes, incluyendo nombre, correo electrónico, dirección y si tienen activo el plan de tienda (`active`). Se vincula con la tabla `rental` para registrar los alquileres realizados por cada cliente.  
 
-- **store**: representa las tiendas físicas que poseen inventario de películas. Cada tienda está asociada a un empleado como gerente (`manager_staff_id`) y a una dirección específica. Se conecta con inventario y clientes para el registro de operaciones de alquiler y ventas. 
+- **store**: representa las tiendas físicas que poseen inventario de películas. Cada tienda está asociada a un empleado como gerente (`manager_staff_id`) y a una dirección específica. Se conecta con inventario y clientes para el registro de operaciones de alquiler y ventas.
 
+- **rental**: contiene el historial de alquileres realizados por los clientes. Cada registro incluye `rental_id`, `rental_date`, `inventory_id`, `customer_id`, `return_date` y `staff_id`. Esta tabla es central para analizar patrones de alquiler, frecuencia de clientes y relación entre inventario, clientes y empleados.
+  
 ## 🔄 Flujo de trabajo / Metodología
 ### 1️⃣ Inspección y comprensión de la base de datos
 - Exploración de tablas, tipos de datos y relaciones.  
