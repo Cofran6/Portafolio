@@ -33,17 +33,45 @@ Tablas principales (la base cuenta con 16 tablas):
 ## 🔄 Flujo de trabajo / Metodología
 ### 1️⃣ Inspección y comprensión de la base de datos
 
-- Exploración y listado de tablas.
-- Identificación de estructura y claves primarias.
-- Identificación de relaciones entre tablas.  
+En esta fase inicial se realiza un análisis detallado de la estructura de la base de datos para comprender su organización y contenido:
 
-### 2️⃣ Formulación y respuesta a preguntas de análisis según complejidad
-- Consultas básicas.
-- Consultas intermedias.
-- Consultas avanzadas. 
+- Exploración y listado de todas las tablas presentes en la base de datos.  
+- Identificación de las claves primarias y atributos principales de cada tabla.  
+- Determinación de las relaciones entre tablas, incluyendo claves foráneas y dependencias, para entender cómo se conectan los distintos conjuntos de datos.
+
+  
+### 2️⃣ Formulación y resolución de preguntas de análisis según complejidad
+
+En esta etapa se desarrollan un conjunto de preguntas de análisis de datos, estructuradas según su nivel de dificultad:
+
+- Ejecución de consultas SQL clasificadas como básicas, intermedias y avanzadas.  
+- Presentación de la solución y los resultados obtenidos para cada pregunta.
+
 
 ### 3️⃣ Manejo y revisión de usuarios y permisos
-- Creación de usuarios, asignación y revocación de privilegios.  
+
+En esta fase se gestionan los usuarios y sus privilegios para garantizar la seguridad y el control de acceso a la base de datos Sakila. Se abarcan las siguientes actividades:
+
+- **Revisión de usuarios existentes**: se inspecciona la base de datos de MySQL para identificar los usuarios y su estado, incluyendo si la cuenta está bloqueada o el plugin de autenticación utilizado.
+
+- **Revisión de permisos de usuarios**: se consultan los privilegios otorgados a cada usuario, asegurando que solo tengan acceso a las operaciones permitidas según su rol.
+
+- **Creación de usuarios**: se crean usuarios específicos para distintos roles:
+  - `analista`: permisos de solo lectura (`SELECT`) sobre Sakila.
+  - `editor`: permisos de lectura y escritura (`SELECT`, `INSERT`, `UPDATE`, `DELETE`) sobre Sakila.
+  - `dba_sakila`: todos los privilegios sobre Sakila para administración completa.
+
+- **Otorgar y revocar permisos**: se asignan los privilegios correspondientes a cada usuario y se revocan cuando es necesario, aplicando los cambios con `FLUSH PRIVILEGES`.
+
+- **Comprobación de cambios**: se verifica la creación de usuarios y los privilegios asignados mediante consultas `SELECT` y `SHOW GRANTS`.
+
+- **Políticas de contraseñas y seguridad**: se aplican buenas prácticas de seguridad, incluyendo:
+  - Obligación de cambio de contraseña en el primer login.
+  - Caducidad de contraseñas cada 90 días.
+  - Bloqueo y desbloqueo manual de cuentas según sea necesario.
+
+Esta estructura permite un control detallado sobre los accesos, asegurando que cada usuario tenga solo los privilegios requeridos y que se cumplan las políticas de seguridad establecidas.
+
 
 ### 4️⃣ Uso de tablas temporales
 - Análisis transitorio de datos para consultas complejas.  
