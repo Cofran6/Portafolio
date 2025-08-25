@@ -182,7 +182,7 @@ Organizadas por tipo:
 ### 📝 Pasos para replicar
 1. Descargar e instalar la base de datos Sakila desde la documentación oficial.
 2. Abrir MySQL Workbench 8.0 CE (recomendado) u otro cliente SQL y conectarse al servidor. Ten en cuenta que el uso de otros motores puede generar errores debido a diferencias en la sintaxis de SQL.
-3. Abrir y ejecutar el script `script_sakila.sql` incluido en este repositorio. Esto creará la base de datos, tablas, usuarios y privilegios necesarios.
+3. Abrir y ejecutar el script `script_sakila.sql` incluido en este repositorio. Esto permitirá ejecutar las consultas que fueron llevadas a cabo en este proyecto.
 4. Ejecutar `USE sakila;` para seleccionar la base de datos.
 5. Seguir las instrucciones del proyecto para ejecutar consultas, procedimientos almacenados y tablas temporales en el orden indicado.
 6. Revisar y ajustar permisos de usuarios si se desea probar la sección de gestión de usuarios.
