@@ -135,22 +135,22 @@ El uso de procedimientos almacenados en Sakila permite **optimizar la gestión d
 
 
 ## 🧰 Técnicas y herramientas usadas
-- Consultas SQL: básicas, intermedias y avanzadas  
-- **DML:** INSERT, UPDATE, DELETE (manipulación de datos en tablas)  
-- **DDL:** CREATE, ALTER, DROP (definición y modificación de la estructura de la base de datos)  
-- **DCL:** GRANT, REVOKE (gestión de usuarios y permisos)  
-- Tablas temporales y procedimientos almacenados  
-- Manejo de usuarios y contraseñas, incluyendo políticas de seguridad  
-- Revisión y optimización de consultas  
+- Consultas SQL: básicas, intermedias y avanzadas.  
+- **DML:** INSERT, UPDATE, DELETE (manipulación de datos en tablas).  
+- **DDL:** CREATE, ALTER, DROP (definición y modificación de la estructura de la base de datos).  
+- **DCL:** GRANT, REVOKE (gestión de usuarios y permisos).  
+- Tablas temporales y procedimientos almacenados.  
+- Manejo de usuarios y contraseñas, incluyendo políticas de seguridad.  
+- Revisión y optimización de consultas.  
 
 ## 💻 Consultas realizadas
 Organizadas por tipo:  
-- **Básicas:** SELECT, WHERE, ORDER BY, LIMIT  
-- **Intermedias:** JOIN, GROUP BY, agregaciones, HAVING  
-- **Avanzadas:** subconsultas, CTEs, funciones agregadas complejas  
-- **DML:** INSERT, UPDATE, DELETE  
-- **DDL:** CREATE, ALTER, DROP  
-- **DCL:** GRANT, REVOKE
+- **Básicas:** SELECT, WHERE, ORDER BY, LIMIT.  
+- **Intermedias:** JOIN, GROUP BY, agregaciones, HAVING.  
+- **Avanzadas:** subconsultas, CTEs, funciones agregadas complejas.  
+- **DML:** INSERT, UPDATE, DELETE.  
+- **DDL:** CREATE, ALTER, DROP.  
+- **DCL:** GRANT, REVOKE.
 
 
 > Cada consulta está documentada con una breve descripción en un comentario, además de especificar los criterios usados según el contexto.
