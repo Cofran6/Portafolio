@@ -16,7 +16,8 @@ Este proyecto utiliza la base de datos **Sakila**, un ejemplo relacional proporc
 ## 🗂️ Esquema de la base de datos
 La base de datos Sakila contiene tablas relacionadas con un sistema de alquiler de películas, incluyendo actores, clientes, inventario, pagos y categorías.  
 
-![Esquema oficial de la base de datos Sakila](imagenes/esquema_sakila)
+<img width="800" height="774" alt="esquema_sakila" src="https://github.com/user-attachments/assets/a4ff1fa0-faca-4bb3-b0f3-cd647d214fae" />
+
 
 *Fuente: [MySQL Workbench – Documenting Sakila](https://dev.mysql.com/doc/workbench/en/wb-documenting-sakila.html)*
 
