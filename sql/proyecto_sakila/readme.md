@@ -74,7 +74,26 @@ Esta estructura permite un control detallado sobre los accesos, asegurando que c
 
 
 ### 4️⃣ Uso de tablas temporales
-- Análisis transitorio de datos para consultas complejas.  
+
+En esta etapa se utilizan tablas temporales para realizar análisis transitorios de datos y consultas complejas sin afectar las tablas originales de la base Sakila. Las tablas temporales existen únicamente durante la sesión actual y se eliminan automáticamente al finalizarla, aunque también pueden eliminarse manualmente si es necesario.
+
+Las actividades principales incluyen:
+
+- **Creación de tablas temporales**:  
+  - `temp_clientes`: lista de clientes activos con información básica (`customer_id`, nombre, apellido, email y tienda asociada).  
+  - `temp_peliculas_populares`: ranking de las 10 películas más alquiladas, calculando la cantidad de veces que cada película fue alquilada.  
+
+- **Inserción de datos de ejemplo**: se pueden añadir registros manualmente a las tablas temporales para pruebas o simulaciones, como insertar un cliente específico en `temp_clientes`.
+
+- **Consultas sobre tablas temporales**: se realizan operaciones de análisis sobre las tablas temporales, por ejemplo:  
+  - Listar clientes activos por tienda.  
+  - Contar la cantidad de clientes de una tienda específica.  
+  - Consultas de ranking o agregación sobre películas populares.  
+
+- **Eliminación de tablas temporales**: las tablas pueden ser eliminadas de manera explícita mediante `DROP TEMPORARY TABLE` cuando ya no son necesarias, garantizando que la sesión quede limpia y sin afectar los datos originales.
+
+El uso de tablas temporales permite **simplificar consultas complejas**, **probar análisis de manera aislada** y **mantener la integridad de los datos originales** durante el desarrollo de consultas SQL avanzadas.
+
 
 ### 5️⃣ Uso de procedimientos almacenados
 - Automatización de cálculos y reportes.  
