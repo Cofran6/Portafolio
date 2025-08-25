@@ -26,7 +26,7 @@ El objetivo de esta carpeta es demostrar:
 ## 🛠️ Herramientas
 
 - **MySQL**: motor de base de datos relacional.  
-- **Workbench / Cliente SQL**: para ejecución y visualización de consultas.  
+- **Workbench / Cliente SQL**: ejecución y visualización de consultas.  
 - **Markdown**: documentación de los proyectos.
 
 ---
