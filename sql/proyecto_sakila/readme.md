@@ -195,4 +195,4 @@ Este README proporciona un marco completo para entender, ejecutar y replicar el 
 
 📌 Autor
 
-Franco Díaz - [GitHub](https://github.com/Cofran6)
+Franco Díaz - [GitHub](https://github.com/fesdsm)
