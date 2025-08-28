@@ -34,7 +34,7 @@ La base de datos contiene **10 tablas principales**:
 9. `roles`  
 10. `usuarios`  
 
-> Cada tabla incluye sus claves primarias y relaciones con otras tablas según la metodología de diseño relacional.
+Cada tabla incluye sus claves primarias y relaciones con otras tablas según la metodología de diseño relacional.
 
 ---
 
