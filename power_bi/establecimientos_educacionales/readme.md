@@ -15,11 +15,13 @@ Este proyecto utiliza **Power BI** para el análisis y visualización de datos, 
 ## 🔄 Flujo de trabajo / Metodología
 
 ### 1️⃣ Obtención y comprensión de los datos
+
 - Descarga de datos confiables desde fuentes oficiales y seguras.  
 - Análisis de las columnas y comprensión de las relaciones dentro del dataset.  
 - Investigación adicional de documentación oficial para entender nomenclatura y significado de los datos.  
 
 ### 2️⃣ Transformación y limpieza de datos
+
 - Eliminación de columnas innecesarias y renombrado de las columnas restantes.  
 - Ajuste de tipos de datos y filtrado de registros no relevantes.  
 - Normalización de columnas (por ejemplo, conversión de texto a números y rangos) y generación de archivos de soporte para normalizaciones adicionales.  
@@ -27,18 +29,34 @@ Este proyecto utiliza **Power BI** para el análisis y visualización de datos, 
 - Filtrado final de registros incompletos o irrelevantes para limpiar el dataset.  
 
 ### 3️⃣ Modelado de datos
+
 - Creación de relaciones entre tablas en el modelador de Power BI, asegurando ambas direcciones de rutas para evitar conflictos.  
 - Incorporación de los archivos de normalización generados en Python para completar el modelo.  
+- Creación de **tabla de medidas** y **medidas calculadas** para KPIs, métricas y análisis específicos.  
+- Implementación de medidas adicionales para mejorar la visualización y el aspecto de los gráficos en los dashboards.
+
 
 ### 4️⃣ Creación de visualizaciones
-- Diseño de dashboards siguiendo un esquema de referencia (por ejemplo: regiones → provincias → comunas).  
-- Generación de visualizaciones detalladas de establecimientos con información completa y contextual.  
-- Creación de una pantalla de introducción con navegación e hipervínculos a todas las visualizaciones.  
+
+- Diseño de dashboards siguiendo un esquema de análisis de lo general a lo particular: regiones → provincias → comunas → detalle de establecimiento.  
+- Creación de visualizaciones detalladas de establecimientos con información completa y contextual.  
+- Desarrollo de una pantalla de introducción con navegación clara hacia todas las visualizaciones.  
+- Incorporación de títulos, etiquetas y botones: navegación y control de filtros.  
+- Optimización de gráficos mediante medidas calculadas y configuraciones avanzadas.  
+- Integración de elementos visuales adicionales no nativos de Power BI para enriquecer los dashboards.  
+- Inclusión de segmentaciones y listas detalladas para facilitar el filtrado y la exploración de datos.
+- Uso de **tema oscuro** para mejorar la legibilidad, resaltar los datos clave y reducir la fatiga visual durante la exploración de dashboards.
+- Uso de **iconos** relacionados a elementos visuales y páginas para reforzar la comprensión del dashboard.
+
 
 ### 5️⃣ Finalización y documentación
-- Revisión del modelo y las visualizaciones para asegurar consistencia y correcta navegación.  
-- Asignación de títulos, etiquetas y elementos de navegación para mejorar la experiencia del usuario.  
-- Documentación del flujo de trabajo y hallazgos principales.
+
+- Revisión del modelo, botones y visualizaciones para asegurar consistencia y correcta navegación.  
+- Validación de los datos y medidas calculadas para garantizar la exactitud de los cálculos.  
+- Organización de archivos y recursos utilizados para facilitar la replicación del proyecto.  
+- Documentación del flujo de trabajo y hallazgos principales, incluyendo decisiones de modelado y transformaciones aplicadas.  
+- Preparación del proyecto para compartir, asegurando compatibilidad y facilidad de uso por terceros.
+- Publicación del modelo en **Power BI Service** para asegurar su visualización desde cualquier dispositivo.
 
 
 ## 🧰 Técnicas y herramientas usadas
@@ -47,7 +65,7 @@ Este proyecto utiliza **Power BI** para el análisis y visualización de datos, 
 - **Power Query**: limpieza y transformación de datos.
 - **DAX**: creación de medidas calculadas y KPIs.
 - **Python 3**: extracción de datos.
-- Visualizaciones interactivas: gráficos, tablas, mapas y tarjetas.
+- Visualizaciones interactivas: gráficos, tablas, mapas, tarjetas y segmentaciones.
 - Buenas prácticas en modelado, normalización y relaciones entre tablas.
   
 
