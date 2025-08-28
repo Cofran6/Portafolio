@@ -1,4 +1,4 @@
-# 🗄️ Proyecto Power BI Establecimientos Educacionales Chile año 2014
+# 🗄️ Proyecto Power BI: Establecimientos Educacionales Chile año 2014
 
 ## 📖 Introducción
 
