@@ -14,37 +14,32 @@ Este proyecto utiliza **Power BI** para el análisis y visualización de datos, 
 
 ## 🔄 Flujo de trabajo / Metodología
 
-### 1️⃣ Inspección y comprensión de los datos
+### 1️⃣ Obtención y comprensión de los datos
+- Descarga de datos confiables desde fuentes oficiales y seguras.  
+- Análisis de las columnas y comprensión de las relaciones dentro del dataset.  
+- Investigación adicional de documentación oficial para entender nomenclatura y significado de los datos.  
 
-- Exploración de los datasets y sus columnas principales.
-- Identificación de relaciones entre tablas y normalización de datos.
-- Revisión de consistencia, valores nulos y duplicados.
+### 2️⃣ Transformación y limpieza de datos
+- Eliminación de columnas innecesarias y renombrado de las columnas restantes.  
+- Ajuste de tipos de datos y filtrado de registros no relevantes.  
+- Normalización de columnas (por ejemplo, conversión de texto a números y rangos) y generación de archivos de soporte para normalizaciones adicionales.  
+- Manejo de columnas de relación muchos a muchos mediante técnicas específicas según corresponda.  
+- Filtrado final de registros incompletos o irrelevantes para limpiar el dataset.  
 
-### 2️⃣ Formulación y resolución de preguntas de análisis según complejidad
+### 3️⃣ Modelado de datos
+- Creación de relaciones entre tablas en el modelador de Power BI, asegurando ambas direcciones de rutas para evitar conflictos.  
+- Incorporación de los archivos de normalización generados en Python para completar el modelo.  
 
-- **Visualizaciones básicas**: gráficos simples, tablas y tarjetas para análisis descriptivo.
-- **Visualizaciones intermedias**: uso de segmentaciones, filtros, medidas DAX y relaciones entre tablas.
-- **Visualizaciones avanzadas**: dashboards interactivos, KPIs, análisis temporal y patrones complejos.
+### 4️⃣ Creación de visualizaciones
+- Diseño de dashboards siguiendo un esquema de referencia (por ejemplo: regiones → provincias → comunas).  
+- Generación de visualizaciones detalladas de establecimientos con información completa y contextual.  
+- Creación de una pantalla de introducción con navegación e hipervínculos a todas las visualizaciones.  
 
-Cada visualización está documentada con su objetivo, medidas usadas y hallazgos obtenidos, facilitando la comprensión y replicación del análisis.
+### 5️⃣ Finalización y documentación
+- Revisión del modelo y las visualizaciones para asegurar consistencia y correcta navegación.  
+- Asignación de títulos, etiquetas y elementos de navegación para mejorar la experiencia del usuario.  
+- Documentación del flujo de trabajo y hallazgos principales.
 
-### 3️⃣ Modelado de datos y normalización
-
-- Creación de relaciones entre tablas según el modelo de datos.
-- Normalización para evitar redundancia y optimizar consultas.
-- Uso de jerarquías y segmentaciones para análisis interactivo.
-
-### 4️⃣ Uso de medidas calculadas y componentes adicionales
-
-- Creación de **medidas DAX** para KPIs y métricas específicas.
-- Implementación de componentes visuales avanzados (gráficos combinados, mapas, tarjetas KPI).
-- Uso de filtros, slicers y segmentaciones para mejorar la interactividad del dashboard.
-
-### 5️⃣ Documentación y análisis de hallazgos
-
-- Registro de patrones y tendencias detectadas en los datos.
-- Comparación de resultados entre diferentes visualizaciones y medidas.
-- Explicación clara de insights y recomendaciones para la toma de decisiones.
 
 ## 🧰 Técnicas y herramientas usadas
 
