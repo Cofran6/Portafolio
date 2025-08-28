@@ -1,4 +1,4 @@
-# 🗄️ Proyecto SQL: Panadería Pantástica
+# 🗄️ Proyecto SQL: Panadería 'Pantástica'
 
 ## 📖 Introducción
 
