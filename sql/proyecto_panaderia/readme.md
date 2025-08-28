@@ -30,6 +30,7 @@ Este proyecto consiste en la creación de un **modelo de base de datos relaciona
 
 <img width="952" height="820" alt="esquema pantastica" src="https://github.com/user-attachments/assets/7cdcdc0d-6b4c-4cf7-94ca-31c9ee0f06d9" />
 
+*Fuente: Elaboración propia.*
 
 
 La base de datos contiene **10 tablas**  
