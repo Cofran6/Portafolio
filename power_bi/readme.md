@@ -17,11 +17,13 @@ Los datasets utilizados son reales o simulados y permiten explorar distintos esc
 
 ## 🎯 Objetivo
 
-El objetivo de esta carpeta es demostrar:
+Esta carpeta tiene como objetivo demostrar:
 
-- Capacidad para resolver problemas de análisis de datos utilizando **Power BI**.
-- Conocimiento en modelado de datos, visualizaciones complejas y optimización de dashboards.
-- Habilidad para documentar proyectos de manera clara y profesional.
+- Resolución de problemas de análisis de datos mediante **Power BI**.
+- Uso de **Power Query** para limpieza, transformación y preparación de datos.
+- Creación de **tablas**, **medidas calculadas** y **componentes adicionales** para dashboards interactivos.
+- Dominio en **modelado de datos**, incluyendo normalización, relaciones y optimización de modelos.
+- Habilidad para documentar proyectos de manera clara, profesional y replicable.
 
 ## 🛠️ Herramientas
 
