@@ -4,7 +4,7 @@
 
 Este proyecto utiliza **Power BI** para el análisis y visualización de datos, con el objetivo de explorar datasets reales o simulados, crear dashboards interactivos y aplicar buenas prácticas de modelado y visualización de información.
 
-### 🌐 Fuente de datos
+## 🌐 Fuente de datos
 
 Portal de [Datos Abiertos del MINEDUC](https://datosabiertos.mineduc.cl/directorio-de-establecimientos-educacionales) — Directorio de Establecimientos Educacionales de Chile (2024).
 
@@ -95,7 +95,7 @@ Portal de [Datos Abiertos del MINEDUC](https://datosabiertos.mineduc.cl/director
 
 ### 📝 Pasos para replicar
 
-1. Descargar el archivo **.pbix** incluido en este repositorio.  
+1. Descargar el archivo **.pbix** incluido en este repositorio o acceder a la versión publicada en línea para exploración interactiva: [Establecimientos Educacionales Chile 2024](https://app.powerbi.com/view?r=eyJrIjoiN2JlMmUwNmUtOWM2NC00ZTM4LTlhNmMtMjNkMWJlOGMzMTgyIiwidCI6IjQ5ZWM5ZjUyLThlMjgtNGIyMC1hNDQxLTkyZWJmMjZjNTQ0YyIsImMiOjR9&pageName=36d08784d090d42275d4)
 2. Abrir el archivo con **Power BI Desktop**.  
 3. Explorar los dashboards, medidas calculadas y visualizaciones interactivas directamente.  
 4. (Opcional) Modificar o ampliar los datos, medidas o visualizaciones según se desee.  
