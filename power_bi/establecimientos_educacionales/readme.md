@@ -75,15 +75,24 @@ Portal de [Datos Abiertos del MINEDUC](https://datosabiertos.mineduc.cl/director
 
 ## 📊 Hallazgos
 
--
--
--
+- Las regiones con mayor número de establecimientos no coinciden necesariamente con las que presentan mayor matrícula; este patrón se repite a nivel de provincias.  
+- Más del 50% de los establecimientos en Chile no cuentan con convenio PIE, y casi el 95% no posee programa PACE.  
+- Cerca del 90% de los colegios son gratuitos; de manera similar, alrededor del 90% no cobra matrícula.  
+- Solo 620 establecimientos de un total de 11.041 se encuentran en el rango más alto de mensualidad, con un promedio de 6 por comuna; Las Condes lidera con aproximadamente un 40% más que otras comunas.  
+- La mayoría de los establecimientos imparten en promedio 2 o 3 niveles educativos (básica y media, principalmente científico-humanista).  
+- Predominan los establecimientos urbanos, con un 70% en promedio; sin embargo, en La Araucanía, Los Lagos y Los Ríos, la proporción de establecimientos rurales alcanza cerca del 60%, siendo La Araucanía la más significativa.  
+- Los establecimientos se enfocan únicamente en determinados niveles educativos o especialidades; ninguno imparte la totalidad de las especialidades y todos los niveles de enseñanza a la vez.  
+- Considerando la densidad de población, La Araucanía y Los Lagos presentan la mayor cantidad de establecimientos por cada 100.000 habitantes (según datos oficiales de población 2024).
 
 ## 📝 Conclusiones
 
--
--
--
+- La disparidad entre número de establecimientos y matrícula por región/provincia sugiere la necesidad de **planificación estratégica y asignación de recursos educativos** más equitativa.  
+- La baja cobertura de programas PIE y PACE evidencia áreas de mejora y oportunidades para políticas de inclusión educativa en los próximos años.  
+- La elevada proporción de colegios gratuitos y sin cobro de matrícula refleja un sistema mayoritariamente accesible, aunque existe un pequeño grupo de establecimientos con altos costos concentrados en comunas específicas, lo que podría implicar desigualdad en el acceso.  
+- La predominancia de 2–3 niveles educativos y la especialización parcial de los establecimientos indica que **no existen colegios que cubran todos los niveles y especialidades**, lo que puede condicionar la oferta educativa local.  
+- La concentración de establecimientos rurales en ciertas regiones sugiere que las políticas deben adaptarse a las **necesidades geográficas y demográficas específicas**.  
+- Los hallazgos sobre densidad de establecimientos por población sirven como base para análisis futuros más detallados, incluyendo: matrícula por nivel educativo, matrícula por especialidad, y número de establecimientos y matrículas ajustados por cada 100.000 habitantes o por km².
+
 
 ## 🚀 Cómo replicar este proyecto
 
