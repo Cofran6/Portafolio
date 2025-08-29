@@ -4,6 +4,10 @@
 
 Este proyecto utiliza **Power BI** para el análisis y visualización de datos, con el objetivo de explorar datasets reales o simulados, crear dashboards interactivos y aplicar buenas prácticas de modelado y visualización de información.
 
+### 🌐 Fuente de datos
+
+Portal de [Datos Abiertos del MINEDUC](https://datosabiertos.mineduc.cl/directorio-de-establecimientos-educacionales) — Directorio de Establecimientos Educacionales de Chile (2024).
+
 ## 🎯 Objetivos
 
 - Resolución de problemas de análisis de datos mediante **Power BI**.
