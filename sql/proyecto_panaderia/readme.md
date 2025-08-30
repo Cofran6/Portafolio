@@ -108,6 +108,6 @@ Cada tabla incluye sus claves primarias y relaciones con otras tablas según la 
 
 ---
 
-## 📌 Autor
-**Franco Díaz**  
-- GitHub: [https://github.com/fesdsm](https://github.com/fesdsm)
+📌 Autor
+
+Franco Díaz - [GitHub](https://github.com/fesdsm)
